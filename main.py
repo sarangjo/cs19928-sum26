@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
 
-import pset
+import assignment
 
 
 def main():
-    pset.process_grades(6)
+    assignment.process_grades(assignment.quiz2())
 
 
 if __name__ == "__main__":
