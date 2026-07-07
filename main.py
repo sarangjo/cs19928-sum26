@@ -5,7 +5,7 @@ import assignment
 
 
 def main():
-    assignment.process_grades(assignment.quiz2())
+    assignment.process_grades(assignment.problem_set("7-3"))
 
 
 if __name__ == "__main__":
