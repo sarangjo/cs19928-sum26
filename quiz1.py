@@ -3,8 +3,9 @@ import datetime
 import os
 from typing import Any
 
-QUIZ_1_PATH = os.path.join("C:\\", "Users", "saran", "Box",
-                           "CMSC 19928-30 Summer 2026", "Student Data", "Quiz 1")
+from common import CLASS_PATH
+
+QUIZ_1_PATH = os.path.join(CLASS_PATH, "Quiz 1")
 
 AUTOGRADABLE = set([
     1, 4, 5, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20
