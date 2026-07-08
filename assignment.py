@@ -1,6 +1,5 @@
 import csv
 from dataclasses import dataclass
-import itertools
 import os
 from typing import Iterable
 
@@ -26,6 +25,10 @@ def pset_questions(num: str) -> Iterable:
         return range(1, 14+1)
     elif num == "7-3":
         return range(1, 11+1)
+    elif num == "8":
+        return range(1, 12+1)
+    elif num == "9":
+        return range(1, 9+1)
 
     raise NotImplementedError("Invalid pset #")
 
